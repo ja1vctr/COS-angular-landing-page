@@ -1,5 +1,8 @@
 @import "tailwindcss";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
 
-@use "./app/styles/tailwind.css";
+@theme {
+  --color-primary: #d56526;
+  --color-black: #000000;
+  --color-white: #f3f3f3;
+  --font-primary: "Segoe UI", sans-serif;
+}
